@@ -44,7 +44,7 @@
 
 +(NSString *) descriptionOfProgram:(id)program
 {
-    //return @"implement this in assignmetn 2";
+    
     NSMutableArray *stack;
     if([program isKindOfClass:[NSArray class]])
         stack = [program mutableCopy];
@@ -55,7 +55,7 @@
 
 +(NSString *) descriptionOfTopStack:(NSMutableArray *)stack
 {
-   // return @"Implement assgnment 2";
+   
     NSSet *setOfSingleOperand = [NSSet setWithObjects:@"sqrt",@"sin",@"cos",@"log", nil];
     NSSet *setOfVariables = [NSSet setWithObjects:@"x",@"y",@"z",@"π", nil];
     NSSet *setOfDoubleOperand = [NSSet setWithObjects:@"+",@"-",@"*",@"/", nil];
