@@ -43,7 +43,7 @@
     else
     {
         self.display.text=digit;
-        self.userInTheMiddleOfEnteringANumber    = YES;
+        self.userInTheMiddleOfEnteringANumber = YES;
     }
     
 }
@@ -61,6 +61,7 @@
     }
 
 }
+
 - (IBAction)clearPressed
 {
     if( self.userInTheMiddleOfEnteringANumber)
@@ -74,6 +75,7 @@
     if(self.testVariableValues)
     [self.testVariableValues removeAllObjects];
 }
+
 - (IBAction)undoPressed
 {
    
